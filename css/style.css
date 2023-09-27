@@ -36,7 +36,7 @@ header {
 }
 
 #rainbow {
-  animation: 2s infinite alternate colorshift;
+  animation: 1s infinite alternate colorshift;
 }
 
 @keyframes colorshift {
