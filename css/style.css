@@ -133,9 +133,8 @@ ul {
   margin-right: auto;
   margin-bottom: 5px;
   box-sizing: border-box;
-  height: 500px;
   min-height: 300px;
-  max-height: 500px;
+  max-height: 400px;
 }
 
 .game img {
@@ -148,7 +147,6 @@ ul {
   padding: 5px;
   height: 10%;
   box-sizing: border-box;
-  border: 10px solid red;
 }
 
 
