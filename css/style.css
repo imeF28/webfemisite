@@ -144,7 +144,8 @@ ul {
   font-size: 1em;
   background-color: black;
   padding: 5px;
-  min-height: 10px;
+  min-height: 100px;
+  height: 150px;
   box-sizing: border-box;
   border: 10px solid red;
 }
