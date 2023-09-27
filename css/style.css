@@ -145,6 +145,8 @@ ul {
   background-color: black;
   padding: 5px;
   min-height: 10px;
+  box-sizing: border-box;
+  border: 10px solid red;
 }
 
 
