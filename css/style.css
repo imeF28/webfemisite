@@ -132,8 +132,10 @@ ul {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 5px;
+  box-sizing: border-box;
+  height: 500px;
   min-height: 300px;
-  max-height: 400px;
+  max-height: 500px;
 }
 
 .game img {
@@ -144,8 +146,7 @@ ul {
   font-size: 1em;
   background-color: black;
   padding: 5px;
-  min-height: 100px;
-  height: 150px;
+  height: 10%;
   box-sizing: border-box;
   border: 10px solid red;
 }
