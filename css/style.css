@@ -37,7 +37,7 @@ header {
 
 #rainbow {
   font-weight: bold;
-  animation: 0.5s infinite colorshift;
+  animation: 0.7s infinite colorshift;
 }
 
 @keyframes colorshift {
