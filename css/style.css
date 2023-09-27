@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: rgb(20, 0, 30);
+  /*animation: 5s infinite alternate colorshift2;*/
+  color: white;
+}
+
+nav {
+  display: table;
+  width: 100%;
+}
+
+nav a {
+  display: table-cell;
+  height: 70px;
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+nav a:hover {
+  color: lightgray;
+}
+
+header {
+  height: 100vh;
+  width: 100%;
+  display: table;
+}
+
+#rainbow {
+  animation: 2s infinite alternate colorshift;
+}
+
+@keyframes colorshift {
+  from {
+    color: red;
+  }
+  
+  20% {
+    color: orange;
+  }
+  
+  40% {
+    color: yellow;
+  }
+  
+  60% {
+    color: green;
+  }
+  
+  80% {
+    color: blue
+  }
+  
+  to {
+    color: purple;
+  }
+}
+
+@keyframes colorshift2 {
+  from {
+    background-color: green;
+  }
+  
+  20% {
+    background-color: purple;
+  }
+  
+  40% {
+    background-color: blue;
+  }
+  
+  60% {
+    background-color: green;
+  }
+  
+  80% {
+    background-color: blue
+  }
+  
+  to {
+    background-color: purple;
+  }
+}
+
+header h1 {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 5em
+}
+
+header h1 p {
+  font-size: 0.25em;
+  font-weight: normal;
+  color: lightgray;
+}
+
+section {
+  margin: 300px auto;
+  width: 75%;
+  line-height: 1.75em;
+  font-size: 1.25em;
+  padding: 10px;
+}
+
+ul {
+  padding-left: 40px;
+}
+
+/* Game Section */
+
+#gamelist {
+  text-align: center;
+  padding: 5px;
+}
+
+.game {
+  padding: 10px;
+  display: inline-block;
+  width: 200px;
+  background-color: rgba(30, 30, 30, 0.7);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5px;
+  min-height: 200px;
+  max-height: 300px;
+}
+
+.game img {
+  width: 100%;
+}
+
+.game .desc {
+  font-size: 1em;
+  background-color: black;
+  padding: 5px;
+}
+
+
