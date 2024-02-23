@@ -119,6 +119,11 @@ ul {
   padding-left: 40px;
 }
 
+#self-portrait {
+  float: left;
+  padding: 10px;
+}
+
 /* Game Section */
 
 #gamelist {
