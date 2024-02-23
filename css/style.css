@@ -106,11 +106,13 @@ header h1 p {
 }
 
 section {
-  margin: 300px auto;
+  margin: 150px auto;
   width: 75%;
   line-height: 1.75em;
   font-size: 1.25em;
-  padding: 10px;
+  padding: 50px;
+  background-color: rgb(25, 0, 35);
+  border: 5px dashed rgb(15, 0, 25);
 }
 
 ul {
@@ -128,7 +130,7 @@ ul {
   padding: 10px;
   display: inline-block;
   width: 300px;
-  background-color: rgba(30, 30, 30, 0.7);
+  background-color: rgb(25, 0, 35);
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 5px;
@@ -143,10 +145,8 @@ ul {
 
 .game .desc {
   font-size: 1em;
-  background-color: black;
+  background-color: rgb(15, 0, 25);
   padding: 5px;
   height: 10%;
   box-sizing: border-box;
 }
-
-
